@@ -1,0 +1,103 @@
+@media (max-width: 460px) {
+  nav {
+    padding: 20px 0;
+  }
+  .bg-shape {
+    top: -120px;
+    left: -470px;
+    max-width: clamp(700px, 80vw, 1300px);
+  }
+
+  .logo {
+    width: 107px;
+  }
+  .about .stroke-text {
+    top: -19px;
+    left: -32px;
+  }
+  .hero-section h1:before {
+    top: 4px;
+    left: 0px;
+  }
+  .btn-style-2,
+  .btn-style-1 {
+    font-size: 10px;
+    padding: 8px 14px;
+  }
+  .btn-style-2 svg,
+  .btn-style-1 svg {
+    width: 12px;
+  }
+  .hero-section h1:before,
+  .hero-section h1 {
+    /*font-size: 25px;*/
+  }
+  .hero-section {
+    position: relative;
+    min-height: 46vh;
+    padding: 0;
+  }
+
+  .box-icon {
+    height: 220px;
+    padding: 20px 14px;
+    margin-bottom: 0;
+  }
+  .box-icon h5 {
+    font-size: 16px;
+  }
+  .box-icon img {
+    width: 37px;
+  }
+
+  button[type="submit"] {
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .footer-logo {
+    max-width: 124px;
+  }
+}
+@media (min-width: 461px) and (max-width: 1000px) {
+  .footer-logo {
+    max-width: 150px;
+  }
+  .bg-shape {
+    position: absolute;
+    left: -450px;
+    top: -130px;
+  }
+}
+@media (max-width: 1000px) {
+  p {
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .hero-section {
+    position: relative;
+    min-height: 46vh;
+    padding: 120px 0;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  li,
+  input.style-2,
+  .form-select.style-2 body,
+  p,
+  input,
+  select {
+    font-size: 12px !important;
+  }
+
+   a {
+    font-size: 10px !important;
+
+  }
+}
+@media (min-width: 1400px) {
+  .bg-shape {
+    top: -100px;
+  }
+}
