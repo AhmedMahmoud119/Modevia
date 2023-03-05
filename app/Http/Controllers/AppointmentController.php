@@ -16,7 +16,7 @@ class AppointmentController extends Controller
 
         \App\Models\Appointment::create(request()->all());
 
-        return redirect()->route('success');
+        return back()->with('success', 'Success!');
 
     }
 }
