@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.0/css/toastr.css" rel="stylesheet" />
 
-    <title>Document</title>
+    <title>modeviac</title>
 </head>
 
 <body>
@@ -864,9 +864,9 @@
         @endif
 
         @if (Session::has('error'))
-        toastr.error('{{ Session::get('error') }}');
+            toastr.error('{{ Session::get('error') }}');
         @elseif(Session::has('success'))
-        toastr.success('{{ Session::get('success') }}');
+            toastr.success('{{ Session::get('success') }}');
         @endif
     });
 
